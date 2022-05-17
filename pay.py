@@ -7,11 +7,10 @@ def pay():
     while True:
       start = int(input("(To'xtatgani '0' ni kiriting) Boshlagani o'yin raqamini kiriting: "))
       if start == 1:
-        import son_soz
+        import Number_Word
       elif start == 2:
-        import son_soz2
-
-      elif start == 2:
-        import son
+        import Number_Word_2
+      elif start == 3:
+        import Number
   
 pay() 
